@@ -70,6 +70,17 @@ section {
 .explore2 {
   display: none;
 }
+#moment {
+  position: relative;
+}
+.toast {
+  position: absolute;
+  right: 2%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  width: 260px;
+}
 /* moment css end */
 
 /* package css start */
@@ -308,6 +319,11 @@ span {
   .footer-right {
     margin: auto;
   }
+
+  .toast {
+    top: 2%;
+    right: 9%;
+  }
 }
 @media (max-width: 575px) {
   .carousel-item img {
@@ -372,5 +388,10 @@ span {
 
   .footer-right {
     margin: auto;
+  }
+
+  .toast {
+    top: 2%;
+    right: 9%;
   }
 }
