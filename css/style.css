@@ -32,9 +32,11 @@ section {
   height: 18px;
 }
 .navbar-toggler {
-  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   border: none;
-  padding: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 .nav-item:last-child .nav-link {
   margin-right: 0px;
