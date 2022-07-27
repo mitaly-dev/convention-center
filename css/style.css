@@ -328,6 +328,9 @@ span {
   }
 }
 @media (max-width: 575px) {
+  .navbar {
+    padding: 20px 0;
+  }
   .carousel-item img {
     height: 90vh;
     object-fit: cover;
